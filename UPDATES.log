@@ -1,0 +1,8 @@
+cuff v1.2.0 (2025-10-16)
+- Converted to **FX-standalone** (no ESX/QBCore/MySQL dependencies)
+- Added network sync broadcast for cuffed state visibility
+- Hardened animation loader with timeouts and safety checks
+- Centralized config flags for commands, animations, and control disables
+- Anti-spam cooldown to prevent rapid toggling
+- Cleaned up code style, removed nil risks, and added resource-stop cleanup
+- Added README.md and UPDATES.log
